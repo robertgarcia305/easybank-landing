@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "public-sans-light";
+    src: url("fonts/PublicSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "public-sans-reg";
+    src: url("fonts/PublicSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "public-sans-bold";
+    src: url("fonts/PublicSans-Bold.ttf");
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
