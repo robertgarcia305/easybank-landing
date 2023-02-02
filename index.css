@@ -112,6 +112,10 @@ nav {
     margin: 20px 20px;
 }
 
+.hero-button-wrap {
+    margin: 20px 0px;
+}
+
 .hero-text-wrap a {
     background: rgb(42,215,99);
     background: linear-gradient(45deg, rgba(42,215,99,1) 0%, rgba(33,179,205,1) 100%);
@@ -247,7 +251,7 @@ nav {
 /*footer*/
 
 footer {
-    padding: 50px 0px;
+    padding: 50px 10px;
     color: white;
     background-color: #2d314e;
 }
@@ -296,6 +300,10 @@ footer a {
 
 .footer-bottom a {
     text-decoration: underline;
+}
+
+.social-icons img {
+    margin: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -518,7 +526,7 @@ nav {
 /*footer*/
 
 footer {
-    padding: 50px 0px;
+    padding: 50px 10px;
     color: white;
     background-color: #2d314e;
 }
@@ -666,6 +674,35 @@ nav {
     padding: 20px 0px;
 }
 
+.mobile-hero-image-wrap {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-img-wrap {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: fit-content;
+    /* put a max height here, so it will always be a fixed amount, and the other content on the bottom won't move*/
+    max-height: 300px;
+}
+
+.mobile-img-wrap img {
+    /* position: relative; */
+}
+
+.mobile-abstract {
+    width: 100%;
+    transform: translate(0%, -10%);
+}
+
+.mobile-phone {
+    width: 100%;
+    position: absolute;
+    transform: translate(0%, -50%);
+}
 
 .hero-text-wrap {
     width: 100%;
@@ -827,7 +864,7 @@ nav {
 /*footer*/
 
 footer {
-    padding: 50px 0px;
+    padding: 50px 10px;
     color: white;
     background-color: #2d314e;
 }
@@ -1151,7 +1188,7 @@ nav {
 /*footer*/
 
 footer {
-    padding: 50px 0px;
+    padding: 50px 10px;
     color: white;
     background-color: #2d314e;
 }
